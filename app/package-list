@@ -1,0 +1,19 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:ru.marusy.test.ui.theme////PointingToDeclaration/app/ru.marusy.test.ui.theme/index.html
+$dokka.location:ru.marusy.test.ui.theme//Pink40/#/PointingToDeclaration/app/ru.marusy.test.ui.theme/-pink40.html
+$dokka.location:ru.marusy.test.ui.theme//Pink80/#/PointingToDeclaration/app/ru.marusy.test.ui.theme/-pink80.html
+$dokka.location:ru.marusy.test.ui.theme//Purple40/#/PointingToDeclaration/app/ru.marusy.test.ui.theme/-purple40.html
+$dokka.location:ru.marusy.test.ui.theme//Purple80/#/PointingToDeclaration/app/ru.marusy.test.ui.theme/-purple80.html
+$dokka.location:ru.marusy.test.ui.theme//PurpleGrey40/#/PointingToDeclaration/app/ru.marusy.test.ui.theme/-purple-grey40.html
+$dokka.location:ru.marusy.test.ui.theme//PurpleGrey80/#/PointingToDeclaration/app/ru.marusy.test.ui.theme/-purple-grey80.html
+$dokka.location:ru.marusy.test.ui.theme//TestTheme/#kotlin.Boolean#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/app/ru.marusy.test.ui.theme/-test-theme.html
+$dokka.location:ru.marusy.test.ui.theme//Typography/#/PointingToDeclaration/app/ru.marusy.test.ui.theme/-typography.html
+$dokka.location:ru.marusy.test////PointingToDeclaration/app/ru.marusy.test/index.html
+$dokka.location:ru.marusy.test//Greeting/#kotlin.String#androidx.compose.ui.Modifier/PointingToDeclaration/app/ru.marusy.test/-greeting.html
+$dokka.location:ru.marusy.test//GreetingPreview/#/PointingToDeclaration/app/ru.marusy.test/-greeting-preview.html
+$dokka.location:ru.marusy.test/MainActivity///PointingToDeclaration/app/ru.marusy.test/-main-activity/index.html
+$dokka.location:ru.marusy.test/MainActivity/MainActivity/#/PointingToDeclaration/app/ru.marusy.test/-main-activity/-main-activity.html
+ru.marusy.test
+ru.marusy.test.ui.theme
+
