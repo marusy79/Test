@@ -29,7 +29,7 @@ jobs:
 
       - name: Build and generate documentation
         run: |
-          ./gradlew dokkaHtml  # Запуск генерации документации с помощью Dokka
+          ./gradlew dokkaHtml
 
       - name: Upload Documentation
         uses: peaceiris/actions-gh-pages@v3
