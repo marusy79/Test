@@ -28,5 +28,8 @@ jobs:
           java-version: ${{ env.JAVA_VERSION }}
           cache: 'gradle'
 
+      - name: Запуск unit-тестов
+        run: ./gradlew test
+
       - name: Сборка проекта
         run: ./gradlew build
