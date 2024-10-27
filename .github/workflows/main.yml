@@ -1,0 +1,32 @@
+name: Android CI
+
+env:
+  JAVA_VERSION: '17'
+  ANDROID_API_LEVEL: 31
+  BUILD_TOOLS: '31.0.0'
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Проверка исходного кода
+        uses: actions/checkout@v2
+
+      - name: Установка Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: 'gradle'
+
+      - name: Сборка проекта
+        run: ./gradlew build
